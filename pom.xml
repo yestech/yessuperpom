@@ -225,7 +225,7 @@
     <distributionManagement>
         <site>
             <id>yestech.org</id>
-            <url>file:////wwwhome/yestech.org/sites/${artifactId}</url>
+            <url>file:////wwwhome/yestech.org/sites/</url>
         </site>
         <repository>
             <id>yestech-releases</id>
