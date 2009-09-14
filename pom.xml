@@ -47,7 +47,7 @@
         <junit.version>4.7</junit.version>
         <jmock.version>2.5.1</jmock.version>
         <slf4j.version>1.5.8</slf4j.version>
-        <joda.version>1.5.8</joda.version>
+        <joda.version>1.6</joda.version>
         <google-collection.version>1.0-rc2</google-collection.version>
     </properties>
     <dependencies>
