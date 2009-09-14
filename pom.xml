@@ -262,7 +262,7 @@
         </repository>
         <repository>
             <id>terracotta</id>
-            <url>http://repo.terracotta.org/maven2/</url>
+            <url>http://www.terracotta.org/download/reflector/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
