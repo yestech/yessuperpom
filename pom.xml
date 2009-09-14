@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     <name>YES Super Pom</name>
     <description>Parent Maven pom for all YES Tech projects</description>
-    <url>http://yestech.org/sites/yessuperpom/</url>
+    <url>http://yestech.org/sites/</url>
     <scm>
         <connection>scm:git:git://github.com/yestech/yessuperpom.git</connection>
         <developerConnection>scm:git:git://github.com/yestech/yessuperpom.git</developerConnection>
