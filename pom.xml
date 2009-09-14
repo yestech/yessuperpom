@@ -198,9 +198,42 @@
     </reporting>
     <pluginRepositories>
         <pluginRepository>
-            <id>yestech-snapshots</id>
-            <name>YES Technology Snapshot Repository</name>
-            <url>http://oss.sonatype.org/content/repositories/github-snapshots/</url>
+            <id>yestech</id>
+            <name>YES Technology Repository</name>
+            <url>http://oss.sonatype.org/content/repositories/github/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>codehaus</id>
+            <url>http://repository.codehaus.org</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>terracotta-repository</id>
+            <url>http://www.terracotta.org/download/reflector/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>release-repo1.php-maven.org</id>
+            <name>PHP-Maven 2 Release Repository</name>
+            <url>http://repo1.php-maven.org/release</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </pluginRepository>
+        <pluginRepository>
+            <id>snapshot-repo1.php-maven.org</id>
+            <name>PHP-Maven 2 Snapshot Repository</name>
+            <url>http://repo1.php-maven.org/snapshot</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
@@ -211,9 +244,68 @@
     </pluginRepositories>
     <repositories>
         <repository>
-            <id>yestech-snapshots</id>
-            <name>YES Technology Snapshot Repository</name>
-            <url>http://oss.sonatype.org/content/repositories/github-snapshots/</url>
+            <id>yestech</id>
+            <name>YES Technology Repository</name>
+            <url>http://oss.sonatype.org/content/repositories/github/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>terracotta</id>
+            <url>http://repo.terracotta.org/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>codehaus</id>
+            <name>Codehaus Maven Repository</name>
+            <url>http://repository.codehaus.org</url>
+        </repository>
+        <repository>
+            <id>jboss</id>
+            <name>JBoss Repository</name>
+            <url>http://repository.jboss.org/maven2</url>
+        </repository>
+        <repository>
+            <id>maven2-repository.dev.java.net</id>
+            <name>Java.net Repository for Maven 2</name>
+            <url>http://download.java.net/maven/2/</url>
+        </repository>
+        <repository>
+            <id>osjava</id>
+            <name>OS java repository</name>
+            <url>http://dist.osjava.org/maven/</url>
+        </repository>
+        <repository>
+            <id>atlassian</id>
+            <name>atlassian repository</name>
+            <url>http://repository.atlassian.com/maven2/</url>
+        </repository>
+        <repository>
+            <id>compass-project.org</id>
+            <name>Compass</name>
+            <url>http://repo.compass-project.org</url>
+        </repository>
+        <repository>
+            <id>release-repo1.php-maven.org</id>
+            <name>PHP-Maven 2 Release Repository</name>
+            <url>http://repo1.php-maven.org/release</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+        <repository>
+            <id>snapshot-repo1.php-maven.org</id>
+            <name>PHP-Maven 2 Snapshot Repository</name>
+            <url>http://repo1.php-maven.org/snapshot</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
