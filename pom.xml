@@ -50,7 +50,7 @@
         <mockito.version>1.8.0</mockito.version>
         <slf4j.version>1.5.8</slf4j.version>
         <joda.version>1.6</joda.version>
-        <google-collection.version>1.0-rc2</google-collection.version>
+        <google-collection.version>1.0</google-collection.version>
     </properties>
     <dependencies>
         <dependency>
