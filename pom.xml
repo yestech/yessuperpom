@@ -16,7 +16,7 @@
     <scm>
         <connection>scm:git:git@github.com:yestech/yessuperpom.git</connection>
         <developerConnection>scm:git:git@github.com:yestech/yessuperpom.git</developerConnection>
-        <url>git@github.com:yestech/yessuperpom.git</url>
+        <url>http://github.com/yestech/yessuperpom/tree/master</url>
     </scm>
     <organization>
         <name>YES Technology Association</name>
