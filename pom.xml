@@ -149,4 +149,10 @@
             </plugin>
         </plugins>
     </reporting>
+    <distributionManagement>
+        <site>
+            <id>yestech.org</id>
+            <url>file:////wwwhome/yestech.org/sites/</url>
+        </site>
+    </distributionManagement>
 </project>
